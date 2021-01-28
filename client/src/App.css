@@ -1,0 +1,603 @@
+
+/*
+colors : 
+  #ff5722 deep-orange
+  
+  #4fc3f7 light-blue lighten-2
+  
+  */ 
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+.App {
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+.container{
+  position: relative !important;
+  width:100% !important;
+}
+
+/************** Header ******************/
+.header{
+  text-align: left;
+ background:  url("https://images.assets-landingi.com/BDJFxwDj/ga_banner.jpg");
+ background-position: center ;
+ background-repeat: no-repeat;
+ background-attachment: scroll;
+ background-size: cover;
+
+
+ display: block;
+ padding-top:60px;
+  padding-bottom: 30px;
+}
+h3{
+  font-weight: 500;
+}
+h1,h2,h3{
+  font-family: 'Noto Serif', serif;
+}
+h4{
+  font-weight: 300;
+}
+
+.header-des{
+  font-size: 130%;
+  width:50%;
+}
+.form-des{
+  font-size: 130%;
+}
+.terms-des{
+  font-size: 90%;
+}
+.call-btn{
+  margin-right:20px;
+  border-radius: 5px;
+  padding:0px 60px !important;
+}
+.apply-btn{
+ padding:3px 60px !important;
+}
+.call-btn:hover{
+  background-color : #ee6e47 !important;
+}
+.Download-brochure-btn{
+    border:1px solid #ff5722 ;
+    border-radius: 5px;
+    padding:0px 40px !important;
+    
+}
+
+.Download-brochure-btn:hover{
+    color :#ff8965!important;
+}
+.header-p-2{
+  font-size: 120%;
+}
+/******************  video Section **********************************/
+
+
+
+.video-section{
+
+  display: flex;
+  width: 100% !important;
+  justify-content:center;
+  margin:40px auto;
+}
+.video-section video{
+  
+}
+
+
+
+
+
+
+
+
+
+/************** featuer section ******************/
+.featuerSection{
+  background-color: transparent;
+background-image: -webkit-linear-gradient(
+16deg
+, #5f5f5f, #020202);
+background-image: -moz-linear-gradient(16deg, #5f5f5f, #020202);
+background-image: -ms-linear-gradient(16deg, #5f5f5f, #020202);
+background-image: -o-linear-gradient(16deg, #5f5f5f, #020202);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5f5f', endColorstr='#020202' );
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5f5f', endColorstr='#020202' );";
+background-image: linear-gradient(
+16deg
+, #5f5f5f, #020202);
+position: relative;
+display: block;
+padding:40px 0 ;
+}
+.img-box-section2{
+  width:100%;
+}
+.img-box-section2 img{
+  max-width: 100%;
+}
+.section-2{
+  padding:10px 0px !important;
+}
+
+/******************  form and input  *********************/
+
+.apply-form{
+  width:100% ;
+  padding:30px;
+  text-align: left;
+}
+.formCol-message{
+  padding:40px !important;
+}
+.formCol-message h5{
+  margin-bottom: 20px;
+}
+.formCol-message span a:hover{
+  color : #f3867c !important;
+  
+}
+.formCol-message span{
+  font-size: 150%;
+}
+
+.formCol{
+    border-radius: 5px !important;
+    
+
+}
+.input-field input{
+  border:1px solid #2a2a2a !important;
+  padding-left: 10px !important;
+  border-radius: 5px !important;
+}
+input:focus{
+    border-bottom:none !important;
+}
+.input-field input:focus{
+    border:1px solid #ff5722 !important;
+    box-shadow:none !important;
+
+}
+select{ float: left;
+  display: block;
+  border:1px solid  #2a2a2a !important;
+  height: 50px;
+  border-radius: 5px;
+}
+#country{
+  width:100% !important;
+}
+select:focus{
+    border:1px solid #ff5722 !important;
+    box-shadow:none !important;
+
+}
+/******************  *************  *********************/
+/*  featureBox  */
+.row{
+  width:100% !important;
+}
+
+.rowlist{
+  display: flex;
+  justify-content: center !important;
+}
+.featureBox{
+ position: relative;
+ 
+}
+.featureBox h3{
+  line-height: 1.2;
+}
+.featureList{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left:50px !important;
+  align-items: start;
+  margin-top:20px;
+
+}
+.box{
+  display: flex;
+  align-items: center;
+  color: #fff ;
+}
+.box i{
+  padding:5px;
+  color :#2a2a2a;
+  font-size: x-large;
+  background-color: #4fc3f7;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.box p{
+    font-size: 120%;
+    text-align: left;
+}
+/******************************/
+
+/************** section 2 ************/ 
+.section-2-text{
+  font-size: 100%;
+  text-align: left;
+  margin:30px ;
+
+}
+.section-2-text h3{
+  margin-bottom: 50px;
+}
+.section-2-text p{
+  font-size: 130%;
+}
+/******************************/
+
+/**********partnerSection**************/
+.partnerSection{
+  padding:40px 0px ; 
+}
+.image2{
+  margin-top:30px;
+}
+
+/*************************************************/
+
+/********** section-3 **************/
+
+.section-3{
+  padding:60px 0px; 
+}
+.section-3-text{
+  padding:10px 60px !important;
+  border-left: 4px solid #11216d;
+  text-align: left;
+}
+.img-box-s3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+.section-3-text ol li{
+  font-size: 120%;
+  margin-bottom: 5px;
+  padding-left: 10px !important;
+  
+}
+.section-3-text h3{
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+/*************************************************/
+
+/********************* bootcamp content ****************************/
+
+.sprintNumber{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0px;
+  height: 15vh;
+  position: relative;
+}
+.sprintNumber p{
+  top:10%;
+  position: absolute;
+    margin:0px !important;
+    font-size: 125%;
+    font-weight:500;
+}
+
+.sprintNumber span{
+    font-size: 350%;
+    font-family: 'Noto Serif', serif;
+}
+.sprintCard{
+  height: 25vh !important;
+  
+  overflow: hidden;
+    padding:15px 0px 0px 0px!important;
+    margin-left: 30px !important;
+}
+.sprintContent{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  height: auto;
+}
+.last-sprint{
+  margin-top:20%;
+}
+.sprintContent h6{
+  font-size: 130%;
+  color:#078ac7;
+  font-weight: 400;
+}
+.sprintContent p{
+    margin: 0px 0px 7px 0px;
+    
+    line-height: 1.4;
+    font-size: 120%;
+    width:98%;
+}
+.sprintContainer{
+  display: flex;
+  justify-content: center;
+  align-content: center !important;
+  margin-bottom: 40px;
+}
+
+.sprintNumber-small{
+
+  font-size: 250% !important;
+}
+
+/*************************************************/
+
+/*********************** section 5+6  **************************/
+
+
+.apply-box p{
+    font-size: 130%;
+}
+.fees-section{
+  position: relative;
+  height: auto;
+  padding:20px;
+  width:80% !important;
+  margin: 40px auto;
+}
+
+.fees-section-1 p{
+    margin:0px ; 
+    font-size: 130%;
+    font-family: 'Noto Serif', serif;
+}
+.fees-section-1 span{
+  font-size: 105%;
+}
+.fees-section-2 span{
+  font-size: 110%;
+  font-weight: 500;
+}
+
+
+
+.fees-section-3{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 5vh;
+}
+.fees-section-3 span{
+  font-size: 120%;
+  text-align: center;
+}
+.price-1{
+  font-size: 140% !important;
+}
+
+.section-6{
+  
+  background-color: #f5f5f5;
+  width:100% !important;
+  padding:0px 0px 40px 0px ;
+}
+/*************************************************/
+
+
+/******************* section 7 ******************************/
+.about-bootcamp{
+  padding:40px ; 
+  height: auto ;
+display: flex;
+justify-content: center;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+.imge-box{
+  width: 100%;
+}
+.imge-box img{
+  max-width: 100%;
+}
+/* .background-imge1{
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url(http://localhost:3000/image/font-end.jpg);
+  background-size: cover;
+  position: relative;
+  display: block;
+  height: 60vh;
+}
+
+.background-imge2{
+  background-position:  left;
+  background-repeat: no-repeat;
+  background-image: url(http://localhost:3000/image/full-stack.jpg);
+  background-size: cover;
+  position: relative;
+  display: block;
+  height: 60vh;
+  
+} */
+.FAQs-section{
+  margin:0px auto ;
+}
+.collapsible-body span{
+  text-align: left !important;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: hidden !important;
+}
+@media only screen and (max-width: 990px) {
+
+  .fees-section-2,.fees-section-1,.fees-section-3{
+    margin-bottom:25px;
+
+  }
+  .video-section video{
+    width:100%; 
+    height: auto;
+  }
+
+}
+/* for tabs  */
+@media only screen and (max-width: 800px) {
+          .App,body{
+            max-width:100% !important;
+            margin: 0 auto;
+          }
+          .sprintContainer {
+            flex-direction: column;
+            margin:0px !important;
+          }
+
+          .fees-section{
+            height: auto !important;
+            padding:20px;
+            
+            margin:5px auto !important;
+          }
+          .featureList{
+            margin:0px !important;
+            padding-left: 10px !important;
+          }
+          .featureBox{
+            
+          }
+
+          .fees-section-2::before,.fees-section-1::before,.fees-section-3::before{
+        display: none !important;
+          }
+          .fees-section-2,.fees-section-1,.fees-section-3{
+            margin-bottom:25px;
+          }
+        .about-bootcamp{
+          height: 120vh !important;
+        }
+
+    .section-2-text p{
+      padding:0px 10px ;
+      text-align: justify;
+      margin:0px; 
+    }
+    .ourPartnerH3{
+      font-size: 240%;
+    }
+    .section-3{
+      padding:0px !important ;
+    }
+
+    .img-box-s3{
+
+      height: 30vh;
+      margin-bottom:40px ;
+    }
+    .section-3-text{
+      padding:10px !important;
+      border-left: 4px solid #11216d;
+      width:100% !important;
+      margin:0px auto !important;
+    }
+    .section-3-text h3{
+      margin:0 auto;
+      font-size: 200%;
+      width:90% !important;
+    }
+
+    .about-bootcamp{
+      padding:10px ; 
+      height: auto !important;
+      flex-direction: column;
+      position: relative;
+      display: block;
+    }
+    .sprintCard{
+       height: auto !important;
+      padding:10px !important;
+      overflow: hidden;
+    }
+    .sprintNumber{
+      
+    }
+    .sprintCard .col{
+      width:100% !important; 
+    }
+    .sprintContent h6{
+      width:100% !important;
+    }
+   .sprintContainer .card{
+     
+        margin:0px 0px 10px 0px !important;
+    }
+    .last-sprint{
+      margin:0px  auto !important;
+      width:100%;
+      text-align: center;
+    }
+    .section-6-h2{
+      font-size: 250% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* for mobile */
+@media only screen and (max-width: 480px) {
+  .rowlist{
+    flex-direction: column;
+  }
+  .featureList{
+    width:80% !important; margin:0 auto !important;
+  }
+  .featureBox h3{
+    font-size: 200%;
+  }
+  h1{
+    font-size: 300%;
+    width: 100% !important;
+  }
+  .header-des{
+    width: 80% !important;
+  }
+  .call-btn{
+    margin-bottom: 30px ;
+  }
+
+  .sprintNumber p{
+    top:0%;
+    position: absolute;
+      margin:0px !important;
+      font-size: 125%;
+      font-weight:500;
+  }
+}
