@@ -23,15 +23,20 @@ colors :
 }
 
 /************** Header ******************/
+/* .img-header{
+  position: absolute;
+  max-width:100%; 
+  z-index: -2;
+  left:0px;
+  top:0px; 
+
+} */
 .header{
   text-align: left;
- background:  url("https://images.assets-landingi.com/BDJFxwDj/ga_banner.jpg");
- background-position: center ;
+ background-image:  url("https://images.assets-landingi.com/BDJFxwDj/ga_banner.jpg");
+ background-position:  center right ;
  background-repeat: no-repeat;
- background-attachment: scroll;
  background-size: cover;
-
-
  display: block;
  padding-top:60px;
   padding-bottom: 30px;
@@ -59,7 +64,7 @@ h4{
 .call-btn{
   margin-right:20px;
   border-radius: 5px;
-  padding:0px 60px !important;
+  
 }
 .apply-btn{
  padding:3px 60px !important;
@@ -73,9 +78,18 @@ h4{
     padding:0px 40px !important;
     
 }
-
+.ViewMore-btn{
+  margin-right: 30px ;
+}
 .Download-brochure-btn:hover{
     color :#ff8965!important;
+}
+.ViewMore-btn{
+  margin-left: 30px ;
+  padding:0px 40px !important;
+}
+.ViewMore-btn:hover{
+  background-color :#4f4cff!important;
 }
 .header-p-2{
   font-size: 120%;
@@ -441,8 +455,9 @@ justify-content: center;
 } */
 .FAQs-section{
   margin:0px auto ;
+  width:40% !important;
 }
-.collapsible-body span{
+.AQs-span{
   text-align: left !important;
 }
 
@@ -462,6 +477,11 @@ justify-content: center;
     width:100%; 
     height: auto;
   }
+  .call-btn{
+    
+    margin-bottom: 30px ;
+  }
+
 
 }
 /* for tabs  */
@@ -516,6 +536,9 @@ justify-content: center;
       height: 30vh;
       margin-bottom:40px ;
     }
+    .ViewMore-btn{
+      margin-left: 30px ;
+    }
     .section-3-text{
       padding:10px !important;
       border-left: 4px solid #11216d;
@@ -561,6 +584,21 @@ justify-content: center;
     .section-6-h2{
       font-size: 250% !important;
     }
+
+    .header{
+      background-size: cover;
+      
+      background-image: linear-gradient(90deg, rgba(230, 230, 230, 0.554) 0%, rgba(173, 173, 173, 0.226) 100%), url("http://localhost:3000/image/rsz_ga_banner-mobile.png");
+      background-position: left  ;
+  
+      
+  
+    }
+
+    .FAQs-section{
+      margin:0px auto ;
+      width:80% !important;
+    }
 }
 
 
@@ -589,9 +627,6 @@ justify-content: center;
   .header-des{
     width: 80% !important;
   }
-  .call-btn{
-    margin-bottom: 30px ;
-  }
 
   .sprintNumber p{
     top:0%;
@@ -599,5 +634,22 @@ justify-content: center;
       margin:0px !important;
       font-size: 125%;
       font-weight:500;
+  }
+  .ViewMore-btn{
+    margin-top: 30px ;
+    
+  }
+  .header{
+    background-size: cover;
+    
+    background-image: linear-gradient(90deg, rgba(230, 230, 230, 0.554) 0%, rgba(173, 173, 173, 0.226) 100%), url("http://localhost:3000/image/rsz_ga_banner-mobile.png");
+    background-position:center;
+
+    
+
+  }
+  .FAQs-section{
+    margin:0px auto ;
+    width:90% !important;
   }
 }

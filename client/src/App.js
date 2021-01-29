@@ -18,6 +18,7 @@ function App() {
       {/* header */}
       <div className="header ">
           < div className="container">
+             
               {/* logo */}
               <div className="row">
                 <div className="col s12 left l1 ">
@@ -39,11 +40,18 @@ function App() {
 
                {/* buttons */}              
               <div className="row">
-                <div className="col s12 left l8 ">
+                <div className="col s12 left l2 ">
                     <button className="call-btn waves-effect waves-light btn-large deep-orange" ><b><a href="https://meetings.hubspot.com/sl-melad" className="white-text" target="_blank">Book A Call</a> </b> </button>
-                    <button className="Download-brochure-btn waves-effect waves-light btn-large grey lighten-5 deep-orange-text"> <b><a href="#featuerSection" className="deep-orange-text"> Apply Now</a></b></button>
-                <p className="green-text header-p-2 "><b>Hurry up, number of seats are limited</b></p>
+                   
                 
+                </div>
+                <div className="col s12 l4">
+                <button className="Download-brochure-btn waves-effect waves-light btn-large grey lighten-5 deep-orange-text"> <b><a href="#featuerSection" className="deep-orange-text"> Apply Now</a></b></button>
+                </div>
+
+
+                <div className="col s12 ">
+                <p className="green-text header-p-2 "><b>Hurry up, number of seats are limited</b></p>
                 </div>
               </div>
 
@@ -408,11 +416,31 @@ function App() {
                     </div>
                 </div>
 
+    {/* section about bootcamp */}
+    <div className=" clearfix about-bootcamp">
+        <div className="row">
+            <div className="col s12 l6 background-imge1">
+                <h4>Front End Developer </h4>
+                <div className="imge-box ">
+                    <img src="http://192.168.1.6:3000/image/font-end.jpg" alt=""/>
+                </div>
+            </div>   
+             <div className="col s12 l6  background-imge2">
+             <h4>Full-Stack Developer </h4>
+             <div className="imge-box ">
+                    <img src="http://192.168.1.6:3000/image/full-stack.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
                 <div className="row">
                     <div className="col s12 apply-box">
                             <p>Ready to Start your Career as a Full Stack Developer?</p>
                             
                             <button className="Download-brochure-btn waves-effect waves-light btn-large grey lighten-5 deep-orange-text"> <b><a href="#featuerSection" className="deep-orange-text"> Apply Now</a></b></button>
+                            <button className="ViewMore-btn waves-effect waves-light btn-large white-text blue"> <b><a href="https://codifycollege.se/" target="_blank" className="white-text"> View More</a></b></button>
                     </div>
                 </div>
 
@@ -473,24 +501,6 @@ function App() {
     </div>
 
 
-    {/* section about bootcamp */}
-    <div className=" clearfix about-bootcamp">
-        <div className="row">
-            <div className="col s12 l6 background-imge1">
-                <h4>Front End Developer </h4>
-                <div className="imge-box ">
-                    <img src="http://192.168.1.6:3000/image/font-end.jpg" alt=""/>
-                </div>
-            </div>   
-             <div className="col s12 l6  background-imge2">
-             <h4>Full-Stack Developer </h4>
-             <div className="imge-box ">
-                    <img src="http://192.168.1.6:3000/image/full-stack.jpg" alt=""/>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 
 
@@ -500,7 +510,7 @@ function App() {
  <ul class="collapsible">
     <li>
       <div class="collapsible-header"><i class="material-icons">add</i>I dont know how to code, can I still join?</div>
-      <div class="collapsible-body"><span>You can join even if you don't know how to code. A basic technical bent of mind is needed</span></div>
+      <div class="collapsible-body"><span className="AQs-span">You can join even if you don't know how to code. A basic technical bent of mind is needed</span></div>
     </li>
     <li>
       <div class="collapsible-header"><i class="material-icons">add</i>What are my payment options?
