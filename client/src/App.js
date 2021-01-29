@@ -91,7 +91,7 @@ function App() {
 
                                 <div className="box">
                                     <i className="material-icons">check</i>
-                                    <p>16 weeks duration</p>  
+                                    <p>15-30 weeks duration</p>  
                                 </div>
 
                                 <div className="box">
@@ -156,15 +156,23 @@ function App() {
     <div  className="container section-2">
         <div className="row">
    
-                <div className="col s12 l5 offset-l1 section-2-text"> 
+                {/* <div className="col s12 l5 offset-l1 section-2-text"> 
                     <h3>Build the most in demand Skills</h3>
                       <p>As a developer, you get to be the person that translates your passion into a functional website or web application to share with the world.</p>
                       <p><br/></p>
                       <p>The technology boom has created a huge demand for skilled tech professionals. By 2020 , 825,000 vacant European ICT jobs are projected. <span >Traditional 4-year degree universities struggle to fill the talent pipeline.</span></p>
                       <p><span ><br/></span></p>
                       <p><span >Our courses were designed with this in mind. Our aim is to produce practically skilled ‘career-ready’ developers in 16 weeks!</span></p>
-                  </div>
-                  <div className="col s12 l5">
+                  </div> */}
+                <div className="col s12 l6 grey lighten-4 section-3-text">
+                    <h3>What will you be able to do after the program?</h3>
+                     <ol>
+                       <li>Create responsive web pages for modern browsers using HTML, CSS and JavaScript.</li>
+                       <li>Write secure full-stack applications using NodeJS &amp; MongoDB and deploy them to cloud-based services like Heroku.</li>
+                       <li>Consume web application programming interfaces (APIs) from third-party sites such as Twitter, Google, or Yelp.</li><li>Build a RESTful API using a technology like Express.</li><li>Build a richly interactive, front-end single-page application using a modern framework library like React.</li><li>Optimise the functionality of apps using React Router and Redux</li><li>Run test cycles on your application using Jest/Enzyme and MochaJS</li><li>Collaborate as a team using Git and GitHub, widely accepted collaboration practices, and an Agile development workflow.</li><li>Implement common data structures encountered in technical interview situations, such as linked lists and trees.</li><li>Solve algorithm challenges and analyze the computational complexity of algorithms using Big O notation.</li>
+                      </ol>
+                </div>
+                  <div className="col s12 l4 offset-l1">
                       <div className="img-box-section2">
                             
                             
@@ -245,9 +253,63 @@ function App() {
        
 
 
+ {/* section6 fees */}
+
+ <div className="container section-6">
+        <div className="row">
+            <div className="col s12">
+                <h2 className="section-6-h2">Course schedule & Fees</h2>
+            </div>
+        </div>
+        {/* fullstack bootcamp */}
+        <div className="row card fees-section">
+            <div className="col s12 l4 fees-section-1 fees ">
+                    <p>Mars 2021</p>
+                    <span className="red-text">Enrollment deadline: Feb 15, 2021</span>
+            </div>
+
+            <div className="col s12 l3 fees-section-2">
+                <span>Full-Stack Developer <br/>Online 16 Week</span>
+            </div>
+
+            <div className="col s12 l2 fees-section-3 ">
+               <span className="green-text price-1"><b>4,000 €</b>  </span>
+                <span><s className="red-text"> 5,000 €</s>  
+                </span>
+            </div>  
+
+            <div className="col s12 l3">
+                <button className="Download-brochure-btn waves-effect waves-light btn-large deep-orange"> <b><a href="#featuerSection" className="white-text"> Apply Now</a></b></button>
+            </div>
+        </div>
+
+        {/* FrontEnd bootcamp */}
+        <div className="row card fees-section">
+            <div className="col s12 l4 fees-section-1 ">
+                    <p>Mars 2021</p>
+                    <span className="red-text">Enrollment deadline: Feb 15, 2021</span>
+            </div>
+
+            <div className="col s12 l3 fees-section-2">
+                <span>Front-End Developer <br/>Online 16 Week</span>
+            </div>
+
+            <div className="col s12 l2 fees-section-3 ">
+               <span className="green-text price-1"><b>2,400 €</b>  </span>
+                <span><s className="red-text"> 3,500 €</s>  
+                </span>
+            </div>  
+
+            <div className="col s12 l3">
+                <button className="Download-brochure-btn waves-effect waves-light btn-large deep-orange"> <b><a href="#featuerSection" className="white-text"> Apply Now</a></b></button>
+            </div>
+        </div>
+    </div>
+
+
    {/* Section3 */}
     
-    <div className="container section-3">
+    {/* <div className="container section-3">
       <div className="row">  
         
 
@@ -268,7 +330,7 @@ function App() {
                 </div>
         </div>
     </div>
-
+ */}
 
     {/* section4 content*/}
 
@@ -446,60 +508,6 @@ function App() {
 
         </div>
     
-
- {/* section6 fees */}
-
- <div className="container section-6">
-        <div className="row">
-            <div className="col s12">
-                <h2 className="section-6-h2">Course schedule & Fees</h2>
-            </div>
-        </div>
-        {/* fullstack bootcamp */}
-        <div className="row card fees-section">
-            <div className="col s12 l4 fees-section-1 fees ">
-                    <p>Aug 3, 2021</p>
-                    <span className="red-text">Enrollment deadline: July 15, 2021</span>
-            </div>
-
-            <div className="col s12 l3 fees-section-2">
-                <span>Full-Stack Developer <br/>Online 16 Week</span>
-            </div>
-
-            <div className="col s12 l2 fees-section-3 ">
-               <span className="green-text price-1"><b>4,000 €</b>  </span>
-                <span><s className="red-text"> 5,000 €</s>  
-                </span>
-            </div>  
-
-            <div className="col s12 l3">
-                <button className="Download-brochure-btn waves-effect waves-light btn-large deep-orange"> <b><a href="#featuerSection" className="white-text"> Apply Now</a></b></button>
-            </div>
-        </div>
-
-        {/* FrontEnd bootcamp */}
-        <div className="row card fees-section">
-            <div className="col s12 l4 fees-section-1 ">
-                    <p>Aug 3, 2021</p>
-                    <span className="red-text">Enrollment deadline: July 15, 2021</span>
-            </div>
-
-            <div className="col s12 l3 fees-section-2">
-                <span>Front-End Developer <br/>Online 16 Week</span>
-            </div>
-
-            <div className="col s12 l2 fees-section-3 ">
-               <span className="green-text price-1"><b>2,400 €</b>  </span>
-                <span><s className="red-text"> 3,500 €</s>  
-                </span>
-            </div>  
-
-            <div className="col s12 l3">
-                <button className="Download-brochure-btn waves-effect waves-light btn-large deep-orange"> <b><a href="#featuerSection" className="white-text"> Apply Now</a></b></button>
-            </div>
-        </div>
-    </div>
-
 
 
 

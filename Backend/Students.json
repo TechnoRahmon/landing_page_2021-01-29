@@ -40,5 +40,12 @@
     "tel": "1234567",
     "country": "sewden",
     "applied_at": "2021-1-29"
+  },
+  {
+    "name": "elyas",
+    "email": "technorahmon@gmail.com",
+    "tel": "46729237340",
+    "country": "Sweden",
+    "applied_at": "2021-1-29"
   }
 ]

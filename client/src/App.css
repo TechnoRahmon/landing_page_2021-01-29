@@ -321,7 +321,7 @@ select:focus{
     font-family: 'Noto Serif', serif;
 }
 .sprintCard{
-  height: 25vh !important;
+  height: auto !important;
   
   overflow: hidden;
     padding:15px 0px 0px 0px!important;
