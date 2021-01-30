@@ -167,9 +167,15 @@ function App() {
                 <div className="col s12 l6 grey lighten-4 section-3-text">
                     <h3>What will you be able to do after the program?</h3>
                      <ol>
-                       <li>Create responsive web pages for modern browsers using HTML, CSS and JavaScript.</li>
-                       <li>Write secure full-stack applications using NodeJS &amp; MongoDB and deploy them to cloud-based services like Heroku.</li>
-                       <li>Consume web application programming interfaces (APIs) from third-party sites such as Twitter, Google, or Yelp.</li><li>Build a RESTful API using a technology like Express.</li><li>Build a richly interactive, front-end single-page application using a modern framework library like React.</li><li>Optimise the functionality of apps using React Router and Redux</li><li>Run test cycles on your application using Jest/Enzyme and MochaJS</li><li>Collaborate as a team using Git and GitHub, widely accepted collaboration practices, and an Agile development workflow.</li><li>Implement common data structures encountered in technical interview situations, such as linked lists and trees.</li><li>Solve algorithm challenges and analyze the computational complexity of algorithms using Big O notation.</li>
+                       <li>Create responsive web pages using HTML, CSS and JavaScript.</li>
+                       <li>Write secure full-stack applications using NodeJS &amp; MongoDB and deploy them to cloud-based.</li>
+                       <li>Consume web (APIs) from third-party sites</li>
+                       <li>Build a RESTful API using a technology like Express.</li>
+                       <li>Build a front-end single-page a modern framework (React).</li>
+                       <li>Optimise the functionality of apps using React Router and Redux</li>
+                       <li>Collaborate as a team using Git and GitHub, and an Agile development workflow.</li>
+                       <li>Implement common data structures encountered in technical interview situations.</li>
+                       <li>Solve algorithm challenges.</li>
                       </ol>
                 </div>
                   <div className="col s12 l4 offset-l1">
