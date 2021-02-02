@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 
 /*
 colors : 
@@ -9,7 +16,8 @@ colors :
 
   @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 *{
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .App {
@@ -100,9 +108,15 @@ h4{
 
 .video-section{
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
   width: 100% !important;
-  justify-content:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
   margin:40px auto;
 }
 .video-section video{
@@ -120,14 +134,12 @@ h4{
 /************** featuer section ******************/
 .featuerSection{
   background-color: transparent;
-background-image: -webkit-linear-gradient(
-16deg
-, #5f5f5f, #020202);
-background-image: -moz-linear-gradient(16deg, #5f5f5f, #020202);
-background-image: -ms-linear-gradient(16deg, #5f5f5f, #020202);
 background-image: -o-linear-gradient(16deg, #5f5f5f, #020202);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5f5f', endColorstr='#020202' );
 -ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f5f5f', endColorstr='#020202' );";
+background-image: -o-linear-gradient(
+74deg
+, #5f5f5f, #020202);
 background-image: linear-gradient(
 16deg
 , #5f5f5f, #020202);
@@ -181,7 +193,8 @@ input:focus{
 }
 .input-field input:focus{
     border:1px solid #ff5722 !important;
-    box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+            box-shadow:none !important;
 
 }
 select{ float: left;
@@ -195,7 +208,8 @@ select{ float: left;
 }
 select:focus{
     border:1px solid #ff5722 !important;
-    box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+            box-shadow:none !important;
 
 }
 /******************  *************  *********************/
@@ -205,8 +219,12 @@ select:focus{
 }
 
 .rowlist{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 .featureBox{
  position: relative;
@@ -216,17 +234,29 @@ select:focus{
   line-height: 1.2;
 }
 .featureList{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-left:50px !important;
-  align-items: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   margin-top:20px;
 
 }
 .box{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff ;
 }
 .box i{
@@ -280,9 +310,15 @@ select:focus{
   text-align: left;
 }
 .img-box-s3{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 60vh;
 }
 .section-3-text ol li{
@@ -300,10 +336,19 @@ select:focus{
 /********************* bootcamp content ****************************/
 
 .sprintNumber{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto 0px;
   height: 15vh;
   position: relative;
@@ -329,9 +374,16 @@ select:focus{
 }
 .sprintContent{
   text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
   height: auto;
 }
 .last-sprint{
@@ -350,9 +402,14 @@ select:focus{
     width:98%;
 }
 .sprintContainer{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-content: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
   margin-bottom: 40px;
 }
 
@@ -390,14 +447,29 @@ select:focus{
   font-weight: 500;
 }
 
-
-
+.priceHeader{
+padding-top:120px !important ;
+}
+.dis-box img{
+    max-width:80%;
+}
 .fees-section-3{
   
+  display: -webkit-box;
+  
+  display: -ms-flexbox;
+  
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 5vh;
 }
 .fees-section-3 span{
@@ -410,7 +482,7 @@ select:focus{
 
 .section-6{
   
-  background-color: #f5f5f5;
+  background-color: #FFF1E9;
   width:100% !important;
   padding:0px 0px 40px 0px ;
 }
@@ -419,19 +491,38 @@ select:focus{
 
 /******************* section 7 ******************************/
 .about-bootcamp{
-  padding:40px ; 
+  
+  padding:0px ; 
   height: auto ;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-justify-content: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   overflow: hidden;
   position: relative;
   display: block;
 }
 .imge-box{
-  width: 100%;
+ 
 }
 .imge-box img{
   max-width: 100%;
+}
+
+.background-imge1 .imge-box img{
+max-width: 100%;
+}
+
+.background-imge2{
+ margin-top: 40px !important;
+  float: right;
+}
+.background-imge2 h4 ,.background-imge1 h4{
+  margin-top:0px ;
+  padding-top:40px ;
+  padding-bottom:40px ;
 }
 /* .background-imge1{
   background-position: left;
@@ -443,10 +534,14 @@ justify-content: center;
   height: 60vh;
 }
 
-.background-imge2{
+ */
+
+
+ /* .background-imge2{
   background-position:  left;
   background-repeat: no-repeat;
-  background-image: url(http://localhost:3000/image/full-stack.jpg);
+  width:100% !important;
+  background-image: url(http://localhost:3000/image/full-stack.png);
   background-size: cover;
   position: relative;
   display: block;
@@ -467,6 +562,10 @@ justify-content: center;
   display: table;
   overflow: hidden !important;
 }
+
+video{
+  height: 600px !important;
+}
 @media only screen and (max-width: 990px) {
 
   .fees-section-2,.fees-section-1,.fees-section-3{
@@ -481,8 +580,20 @@ justify-content: center;
     
     margin-bottom: 30px ;
   }
-
-
+  .dis-box{
+   
+    margin:0 auto !important;
+}
+.dis-box img{
+ 
+  max-width: 80% !important;
+}
+select,#country{
+  width:102% !important;
+}
+video{
+  height: 600px !important;
+}
 }
 /* for tabs  */
 @media only screen and (max-width: 800px) {
@@ -491,7 +602,10 @@ justify-content: center;
             margin: 0 auto;
           }
           .sprintContainer {
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             margin:0px !important;
           }
 
@@ -517,6 +631,7 @@ justify-content: center;
           }
         .about-bootcamp{
           height: 120vh !important;
+          width:100% !important;
         }
 
     .section-2-text p{
@@ -554,7 +669,10 @@ justify-content: center;
     .about-bootcamp{
       padding:10px ; 
       height: auto !important;
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
       position: relative;
       display: block;
     }
@@ -588,7 +706,11 @@ justify-content: center;
     .header{
       background-size: cover;
       
-      background-image: linear-gradient(90deg, rgba(230, 230, 230, 0.554) 0%, rgba(173, 173, 173, 0.226) 100%), url("http://localhost:3000/image/rsz_ga_banner-mobile.png");
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(230, 230, 230, 0.554)), to(rgba(173, 173, 173, 0.226))), url("https://bootcamp.ccab.tech/image/rsz_ga_banner-mobile.png");
+      
+      background-image: -o-linear-gradient(left, rgba(230, 230, 230, 0.554) 0%, rgba(173, 173, 173, 0.226) 100%), url("https://bootcamp.ccab.tech/image/rsz_ga_banner-mobile.png");
+      
+      background-image: linear-gradient(90deg, rgba(230, 230, 230, 0.554) 0%, rgba(173, 173, 173, 0.226) 100%), url("https://bootcamp.ccab.tech/image/rsz_ga_banner-mobile.png");
       background-position: left  ;
   
       
@@ -598,6 +720,25 @@ justify-content: center;
     .FAQs-section{
       margin:0px auto ;
       width:80% !important;
+    }
+
+    .video-section{
+      height: auto !important;
+     
+      width: 100% !important;
+      
+      margin:0px auto;
+    }
+
+    .video-section video {
+        height: 500px !important;
+
+    }
+    .background-imge1{
+        overflow: hidden !important;
+    }
+    select,#country{
+      width:103% !important;
     }
 }
 
@@ -612,7 +753,10 @@ justify-content: center;
 /* for mobile */
 @media only screen and (max-width: 480px) {
   .rowlist{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .featureList{
     width:80% !important; margin:0 auto !important;
@@ -642,7 +786,11 @@ justify-content: center;
   .header{
     background-size: cover;
     
-    background-image: linear-gradient(90deg, rgba(230, 230, 230, 0.554) 0%, rgba(173, 173, 173, 0.226) 100%), url("http://localhost:3000/image/rsz_ga_banner-mobile.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(230, 230, 230, 0.554)), to(rgba(173, 173, 173, 0.226))), url("https://bootcamp.ccab.tech/image/rsz_ga_banner-mobile.png");
+    
+    background-image: -o-linear-gradient(left, rgba(230, 230, 230, 0.554) 0%, rgba(173, 173, 173, 0.226) 100%), url("https://bootcamp.ccab.tech/image/rsz_ga_banner-mobile.png");
+    
+    background-image: linear-gradient(90deg, rgba(230, 230, 230, 0.554) 0%, rgba(173, 173, 173, 0.226) 100%), url("https://bootcamp.ccab.tech/image/rsz_ga_banner-mobile.png");
     background-position:center;
 
     
@@ -652,4 +800,8 @@ justify-content: center;
     margin:0px auto ;
     width:90% !important;
   }
+
+  .priceHeader{
+    padding-top:40px !important ;
+    }
 }

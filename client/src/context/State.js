@@ -22,7 +22,8 @@ const State = ({children})=>{
               "Content-Type": "application/json",
             },};
             try {
-            const response = await axios.post("/api/send", student, config);
+            //const response = await axios.post("/api/send", student, config);
+            const response = await axios.post("https://usqvi14deg.execute-api.eu-north-1.amazonaws.com/CCLandingPageStudents", student, config);
             //console.log(response.data.success)
             dispacth({
                 type: 'Apply',

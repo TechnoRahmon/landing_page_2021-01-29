@@ -22,7 +22,7 @@ function App() {
               {/* logo */}
               <div className="row">
                 <div className="col s12 left l1 ">
-                    <img  width="100" height="100" src="http://192.168.1.6:3000/image/logo.png" alt=""/>
+                    <img  width="100" height="100" src="image/logo.png" alt=""/>
 
                 </div>
               </div>
@@ -32,7 +32,7 @@ function App() {
                 <div className="col s12 left l8 ">
                     <h1>Become a <span>Web Developer</span></h1>
                     
-                    <h4>Get job-ready in just 18 weeks</h4>
+                    <h4>Get job-ready in just 15-30 weeks</h4>
 
                     <p className="header-des">An immersive, online program to prepare you for a successful career in web development.</p>
                 </div>
@@ -183,8 +183,8 @@ function App() {
                             
                             
                       <div className="video-section col s12 l12 ">
-                        <video width="600" height="600" autoPlay muted controls loop={true}>
-                                <source src="http://192.168.1.6:3000/image/video2.mp4" type="video/mp4"/>
+                        <video  width="600px;" height="600px" muted  loop={true}  autoPlay playsinline="true" disablePictureInPicture="true">
+                                <source src="image/video2.mp4" type="video/mp4"/>
                             </video>
                         </div>
                             {/* <img className="widget widget-image" data-original="https://images.assets-landingi.com/TAJpx0lL/20611_Converted_.png" src="https://images.assets-landingi.com/ID0m16UaVh9YwRGC/20611_Converted_.png" srcset="https://images.assets-landingi.com/ID0m16UaVh9YwRGC/20611_Converted_.png 1x, https://images.assets-landingi.com/TAJpx0lL/20611_Converted_.png 2x" alt=""/> */}
@@ -263,19 +263,23 @@ function App() {
 
  <div className="container section-6">
         <div className="row">
-            <div className="col s12">
+            <div className="col s12 offset-s3 l5 dis-box">
+                 <img src="image/dis.gif"  />
+            </div>
+            <div className="col s12 l5 priceHeader">
                 <h2 className="section-6-h2">Course schedule & Fees</h2>
             </div>
         </div>
+       
         {/* fullstack bootcamp */}
         <div className="row card fees-section">
             <div className="col s12 l4 fees-section-1 fees ">
-                    <p>Mars 2021</p>
-                    <span className="red-text">Enrollment deadline: Feb 15, 2021</span>
+                    <p>March 21 2021</p>
+                    <span className="red-text">Enrollment deadline: Feb 27, 2021</span>
             </div>
 
             <div className="col s12 l3 fees-section-2">
-                <span>Full-Stack Developer <br/>Online 16 Week</span>
+                <span>Full-Stack Developer <br/>Online 15-30 Week</span>
             </div>
 
             <div className="col s12 l2 fees-section-3 ">
@@ -292,16 +296,39 @@ function App() {
         {/* FrontEnd bootcamp */}
         <div className="row card fees-section">
             <div className="col s12 l4 fees-section-1 ">
-                    <p>Mars 2021</p>
-                    <span className="red-text">Enrollment deadline: Feb 15, 2021</span>
+                    <p>March 21 2021</p>
+                    <span className="red-text">Enrollment deadline: Feb 27, 2021</span>
             </div>
 
             <div className="col s12 l3 fees-section-2">
-                <span>Front-End Developer <br/>Online 16 Week</span>
+                <span>Front-End Developer for Gentleman<br/>Online 8-16 Week</span>
             </div>
 
             <div className="col s12 l2 fees-section-3 ">
                <span className="green-text price-1"><b>2,400 €</b>  </span>
+                <span><s className="red-text"> 3,500 €</s>  
+                </span>
+            </div>  
+
+            <div className="col s12 l3">
+                <button className="Download-brochure-btn waves-effect waves-light btn-large deep-orange"> <b><a href="#featuerSection" className="white-text"> Apply Now</a></b></button>
+            </div>
+        </div>
+
+
+               {/* FrontEnd bootcamp for ladies */}
+               <div className="row card fees-section">
+            <div className="col s12 l4 fees-section-1 ">
+                    <p>March 21 2021</p>
+                    <span className="red-text">Enrollment deadline: Feb 27, 2021</span>
+            </div>
+
+            <div className="col s12 l3 fees-section-2">
+                <span>Front-End Developer for Ladies<br/>Online 6-12 Week</span>
+            </div>
+
+            <div className="col s12 l2 fees-section-3 ">
+               <span className="green-text price-1"><b>1,500 €</b>  </span>
                 <span><s className="red-text"> 3,500 €</s>  
                 </span>
             </div>  
@@ -485,21 +512,21 @@ function App() {
                 </div>
 
     {/* section about bootcamp */}
-    <div className=" clearfix about-bootcamp">
-        <div className="row">
-            <div className="col s12 l6 background-imge1">
+    <div className="  row about-bootcamp">
+       
+            <div className="col s12 l12 background-imge1">
                 <h4>Front End Developer </h4>
                 <div className="imge-box ">
-                    <img src="http://192.168.1.6:3000/image/font-end.jpg" alt=""/>
+                    <img src="image/font-end.png" alt=""/>
                 </div>
             </div>   
-             <div className="col s12 l6  background-imge2">
+             <div className="col s12  l12 background-imge2">
              <h4>Full-Stack Developer </h4>
              <div className="imge-box ">
-                    <img src="http://192.168.1.6:3000/image/full-stack.jpg" alt=""/>
+                    <img src="image/full-stack.png" alt=""/>
                 </div>
             </div>
-        </div>
+        
     </div>
 
 
